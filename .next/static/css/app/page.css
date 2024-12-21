@@ -943,8 +943,19 @@
 
   /* Adjust button padding and font size for mobile */
   .btn {
-      padding: 8px 16px;
-      font-size: 0.9rem;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    width: 100%; /* Ensures buttons fill the width on small screens */
+    max-width: 120px; /* Reduces button size on mobile */
+  }
+
+  /* Button Container (adjusted for mobile) */
+  .button-container {
+    display: flex;
+    justify-content: space-between; /* Ensures the buttons are spaced apart */
+    gap: 10px; /* Decrease gap on mobile */
+    flex-wrap: wrap; /* Allows buttons to wrap on small screens */
+    margin-top: 20px; /* Adds space between buttons and the content above */
   }
 
   /* Adjust poppins-medium font size for mobile */
