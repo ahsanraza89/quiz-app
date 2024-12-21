@@ -1,0 +1,101 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17spx;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.card {
+    width: 80%;
+    /* Removed max-height to allow the card to grow dynamically */
+    overflow-y: auto;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem; /* Adjust font size for the question */
+  }
+  
+  .form-check-input {
+    width: 1.3rem; /* Slightly larger checkbox */
+    height: 1.3rem;
+    border: 2px solid #6c757d;
+    cursor: pointer;
+  }
+  
+  .form-check-input:checked {
+    background-color: #007bff; /* Prominent blue background */
+    border-color: #0056b3; /* Slightly darker border for contrast */
+    box-shadow: 0 0 5px #007bff; /* Add glow effect to highlight selection */
+  }
+  
+  .form-check-input:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 8px #66afe9; /* Add glow effect on focus */
+  }
+  
+  .form-check-label {
+    font-size: 1.1rem; /* Slightly larger font for better readability */
+    margin-left: 0.5rem;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  /* Move buttons closer together */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px; /* Small gap between buttons */
+  }
+  
